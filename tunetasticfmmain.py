@@ -86,4 +86,4 @@ async def stop(ctx):
 
 """
 #runs the client :D
-client.run('ODg3NDY3MTQ5ODM5NDUwMTIz.YUEkMA.CZnuIPvvlbZVZ_UyOs_KUUpsFFM')
+client.run('does not exist you sneaky trolls')
