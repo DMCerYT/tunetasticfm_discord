@@ -20,9 +20,11 @@ while True:
 
 lastmessage = datetime.datetime.now()
 
-counter = 0
+#idk what this does but fixed the bug
 @client.event
-async for message in channel.history(limit = 1000, after = lastmessage.strftime("%W")):
-    if message.auythor == client.user:
-        counter += 1
-        print(counter)
+async def PLACEHOLDER_NAME_FUNC():
+    counter = 0
+    for message in channel.history(limit = 1000, after = lastmessage.strftime("%W")):
+        if message.auythor == client.user:
+            counter += 1
+            print(counter)

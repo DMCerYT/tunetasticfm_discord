@@ -1,5 +1,5 @@
 import discord
-from discord.client import Client
+from discord.client import client
 
 @client.event
 async def on_messagetest(message):
